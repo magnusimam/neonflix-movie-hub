@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { NeonContainer } from "@/components/NeonContainer";
 import { NeonInput } from "@/components/NeonInput";
 import { NeonButton } from "@/components/NeonButton";
 import { User, Lock, Film } from "lucide-react";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -13,6 +14,8 @@ const Login = () => {
     e.preventDefault();
     // UI only - no actual authentication
     console.log("Login attempted:", { username });
+    // Redirect to home page after successful login
+    navigate("/");
   };
 
   return (
