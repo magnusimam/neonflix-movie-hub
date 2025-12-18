@@ -41,3 +41,4 @@ export const NeonMessage = ({ type, message }: NeonMessageProps) => {
     </div>
   );
 };
+

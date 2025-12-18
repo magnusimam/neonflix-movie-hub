@@ -21,3 +21,4 @@ export const MovieGrid = ({ movies }: MovieGridProps) => {
     </div>
   );
 };
+

@@ -115,3 +115,4 @@ Contributing
 License & acknowledgements
 - See package.json for license information.
 - Acknowledge external services (OMDb) and UI libraries used in the project.
+

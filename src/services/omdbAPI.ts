@@ -81,3 +81,4 @@ export const getMovieDetails = async (imdbId: string): Promise<DetailsResponse> 
     throw error;
   }
 };
+

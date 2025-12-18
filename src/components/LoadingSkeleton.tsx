@@ -31,3 +31,4 @@ export const LoadingSkeleton = ({ count = 10 }: LoadingSkeletonProps) => {
     </div>
   );
 };
+

@@ -57,3 +57,4 @@ export const MovieCard = ({ imdbID, title, year, poster, index = 0 }: MovieCardP
     </Link>
   );
 };
+

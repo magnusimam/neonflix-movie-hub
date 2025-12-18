@@ -45,3 +45,4 @@ export const SearchBar = ({ onSearch, isLoading }: SearchBarProps) => {
     </div>
   );
 };
+
