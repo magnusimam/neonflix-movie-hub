@@ -45,6 +45,3 @@ npm run build
 
 Popular hosting options:
 - Vercel
-- Netlify
-- GitHub Pages
-- Cloudflare Pages
